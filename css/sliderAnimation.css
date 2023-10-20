@@ -1,0 +1,21 @@
+/* Add any necessary CSS styles */
+.hero-cover {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+.active {
+  opacity: 1;
+}
