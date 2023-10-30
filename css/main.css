@@ -3,6 +3,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .circle {
   padding: 16px 20px;
   border-radius: 30%;
@@ -10,6 +11,11 @@
   color: #fff;
   max-height: 50px;
   z-index: 2;
+}
+
+.text-smaller {
+  font-size: 14px;
+  line-height: 18px;
 }
 
 html {
@@ -26,6 +32,7 @@ html {
     transform: translateY(50px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -39,6 +46,7 @@ html {
     transform: translateY(50px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -51,6 +59,7 @@ html {
     -webkit-clip-path: circle(0% at 65% 75%);
     clip-path: circle(0% at 65% 75%);
   }
+
   100% {
     -webkit-clip-path: circle(20% at 65% 75%);
     clip-path: circle(20% at 65% 75%);
@@ -62,6 +71,7 @@ html {
     -webkit-clip-path: circle(0% at 65% 75%);
     clip-path: circle(0% at 65% 75%);
   }
+
   100% {
     -webkit-clip-path: circle(20% at 65% 75%);
     clip-path: circle(20% at 65% 75%);
@@ -283,11 +293,7 @@ a {
   color: #f40f02;
 }
 
-.main-sections
-  .sub-section
-  .downloads-container
-  .card:hover
-  .download-powerpoint {
+.main-sections .sub-section .downloads-container .card:hover .download-powerpoint {
   color: #d04423;
 }
 
@@ -358,11 +364,13 @@ a {
   .section-figure {
     padding: 20px 0px;
   }
+
   .section-figure img {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+
   .section-figure p {
     text-align: center;
   }
@@ -437,6 +445,7 @@ a {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .technology p {
     margin-right: 50px;
   }
@@ -549,6 +558,7 @@ a {
 .about-us-card .about-us-image {
   -o-object-fit: cover;
   object-fit: cover;
+  height: 200px;
 }
 
 .about-us-card .supervisor {
@@ -635,6 +645,7 @@ a {
     background-size: 200%;
     color: white;
   }
+
   .contact-details a {
     color: #00574e;
   }
@@ -645,21 +656,25 @@ a {
 .connecting-lines.row .col-2 {
   align-self: stretch;
 }
+
 .connecting-lines.row .col-2::after {
   content: '';
   position: absolute;
   border-left: 3px solid #00b8a5;
   z-index: 1;
 }
+
 .connecting-lines.row .col-2.bottom::after {
   height: 50%;
   left: 50%;
   top: 50%;
 }
+
 .connecting-lines.row .col-2.full::after {
   height: 100%;
   left: calc(50% - 3px);
 }
+
 .connecting-lines.row .col-2.top::after {
   height: 50%;
   left: 50%;
@@ -670,34 +685,41 @@ a {
   padding: 0;
   height: 40px;
 }
+
 .timeline_s hr {
   border-top: 3px solid #00b8a5;
   margin: 0;
   top: 17px;
   position: relative;
 }
+
 .timeline_s .col-2 {
   display: flex;
   overflow: hidden;
 }
+
 .timeline_s .corner {
   border: 3px solid #00b8a5;
   width: 100%;
   position: relative;
   border-radius: 15px;
 }
+
 .timeline_s .top-right {
   left: 50%;
   top: -50%;
 }
+
 .timeline_s .left-bottom {
   left: -50%;
   top: calc(50% - 3px);
 }
+
 .timeline_s .top-left {
   left: -50%;
   top: -50%;
 }
+
 .timeline_s .right-bottom {
   left: 50%;
   top: calc(50% - 3px);
@@ -716,6 +738,7 @@ a {
   background-size: cover;
   min-height: 100%;
 }
+
 .promo-banner:before {
   position: absolute;
   z-index: -1;
@@ -738,10 +761,12 @@ a {
 .work .work-overlay:before {
   content: ' ';
 }
+
 .promo-banner-title {
   font-size: 50px;
   color: #fff;
 }
+
 .promo-banner .promo-banner-text {
   font-size: 20px;
   color: #fff;
