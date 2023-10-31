@@ -293,7 +293,11 @@ a {
   color: #f40f02;
 }
 
-.main-sections .sub-section .downloads-container .card:hover .download-powerpoint {
+.main-sections
+  .sub-section
+  .downloads-container
+  .card:hover
+  .download-powerpoint {
   color: #d04423;
 }
 
@@ -558,7 +562,7 @@ a {
 .about-us-card .about-us-image {
   -o-object-fit: cover;
   object-fit: cover;
-  height: 200px;
+  height: 250px;
 }
 
 .about-us-card .supervisor {
